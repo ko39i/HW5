@@ -139,7 +139,8 @@ class Student:
 
 student = Student
 setattr(student, "email", "student@mail.com")
-print(getattr(student, "student_email", "student@mail.com"))
+setattr(student, "student_email", "student@mail.com")
+print(getattr(student, "student_email",))
 
 11
 class Celsius:
